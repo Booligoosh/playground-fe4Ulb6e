@@ -1,6 +1,6 @@
 # HTML syntax for beginners
 
-> This post was orginially publised on [Code The Web][ctw], a blog and tutorial site for beginners to learn Web Development. [Check it out here.][ctw]
+> This post was orginially publised on [Code The Web][ctw], a blog and tutorial site for beginners to learn Web Development. You can [check it out here.][ctw]
 
 The syntax of a language is how it works. How to actually write it. Learn the HTML syntax below...
 
