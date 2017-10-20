@@ -1,7 +1,5 @@
 # HTML syntax for beginners
 
-> This post was orginially publised on [Code The Web][ctw], a blog and tutorial site for beginners to learn Web Development. You can [check it out here.][ctw]
-
 The syntax of a language is how it works. How to actually write it. Learn the HTML syntax below...
 
 The building blocks of HTML are called elements, and the building blocks of elements are tags. When they are put together, they make a website - sort of like atoms and subatomic particles (HTML elements are not related to scientific elements of course, just one of my weird analogies). Let's get started!
@@ -94,6 +92,7 @@ Let's consolidate what we know about HTML tags and elements into this diagram:
 ![A diagram of the sections of and HTML element][tag-structure-2]
 Phew. That might have been a bit confusing, but eventually you'll get the hang of it. If you liked the article, don't forget to [subscribe to the newsletter][newsletter]. Have fun and I'll see you next time, where I'll be talking about [the general structure of HTML websites][html-document-structure].
 
+> This post was orginially publised on [Code The Web][ctw], a blog and tutorial site for beginners to learn Web Development. You can [check it out here.][ctw]
 
 [learn-web-development]: https://codetheweb.blog/2017/10/04/how-to-learn-web-development/?utm_source=tech.io&utm_medium=referral&utm_campaign=guestposting
 [tag-structure-1]: https://codetheweb.blog/assets/img/posts/html-syntax/tag-structure-1.png
