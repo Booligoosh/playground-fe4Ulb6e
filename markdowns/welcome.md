@@ -3,9 +3,6 @@
 The syntax of a language is how it works. How to actually write it. Learn the HTML syntax below...
 
 The building blocks of HTML are called elements, and the building blocks of elements are tags. When they are put together, they make a website - sort of like atoms and subatomic particles (HTML elements are not related to scientific elements of course, just one of my weird analogies). Let's get started!
-```javascript runnable
-console.log('hi');
-```
 
 ## HTML Elements
 Ok, I'm going to show you a bit of code. *WHAT???* Don't panic. You don't have to understand what it all means, I will explain below:
