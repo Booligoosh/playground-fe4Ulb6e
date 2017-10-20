@@ -6,7 +6,7 @@ The building blocks of HTML are called elements, and the building blocks of elem
 
 ## HTML Elements
 Ok, I'm going to show you a bit of code. *WHAT???* Don't panic. You don't have to understand what it all means, I will explain below:
-```HTML
+```HTML runnable
 <h1>Blog Posts.</h1>
 <div class="controls">
     <input type="number" id="first" placeholder="First" oninput="inputsChanged()">
@@ -36,11 +36,11 @@ See? You survived (I hope). For starters, don't worry about what any of this mea
 An element is basically bit of content (text), surrounded by *HTML tags* (I will go into this more later). The tags tell the browser information about what is inside it. For example, `<h1>Blog Posts.</h1>` is telling the browser that "Blog Posts." is an `h1` element - a type of heading. You don't need to remember that, I will go into it more in a [later article][types-of-html-tags].
 
 An *element* refers to the content as well as the two tags. This is an example of an element:
-```HTML
+```HTML runnable
 <td class="post-num">#1</td>
 ```
 Elements can be nested inside each other. When nesting elements, it is usually good to put the elements on new lines, and indented correctly. There are some exceptions, such as
-```HTML
+```HTML runnable
 <td class="post-title"><a href="https://codetheweb.blog/2017/09/29/welcome/" target="_blank">Welcome to Code The Web!</a></td>
 ```
 Note that putting nested elements on new lines and indenting are _**not mandatory,**_ they are just what we call *good code practice*. Good code practice is sort of like etiquette for programming. The aim of good code practice is to make your code easier to read and easier for others to understand (this is especially important when collaborating on large-scale projects).
@@ -53,7 +53,7 @@ Note that this is _**not code**_. It is simply an easy way of visualizing how th
 
 ## HTML Tags
 As I mentioned earlier, tags are the bits of code surrounding the content, such as:
-```HTML
+```HTML runnable
 <p class="test"> ... </p>
 ```
 Tags are always enclosed within `<` and `>`.
@@ -67,22 +67,22 @@ See the example below:
 **Closing tags** are what comes after the contents of the element. They always follow the pattern of `</x>`, where again `x` is the type of element (eg. `</h1>`). Closing tags always look the same (apart from the element name of course) and cannot have attributes.
 
 If an element doesn't have anything inside it, it *doesn't need a closing tag*. Take this an example:
-```HTML
-<img src="/assets/img/posts/structure-of-html-tags/tag-structure-1.png">
+```HTML runnable
+<img src="https://codetheweb.blog/assets/img/posts/structure-of-html-tags/tag-structure-1.png">
 ```
 As it has no contents (only attributes), it doesn't require a `</img>` closing tag.
 
 ## Attributes
 As well as having contents, an element can have *attributes*. Attributes store additional data about the element, and are stored in the opening tag. For example:
-```HTML
+```HTML runnable
 <h1>Code The Web</h1>
 ```
 Here, all we know is that it is an `<h1>` element. Now, this is what it looks like when we add attributes:
-```HTML
+```HTML runnable
 <h1 id="code-the-web-title" class="banner-title" onclick="titleClicked()">Code The Web</h1>
 ```
 Now we know much more information about the element. We know it's *id* and *class* (which are used to style it using CSS), and we also know to run the JavaScript function `titleClicked()` when we click on it (we will get into that *much* later). As you can see, attributes can tell us much more about an element. The syntax for attributes is:
-```HTML
+```HTML runnable
 <h1 attribute="value" otherattribute="othervalue">
 ```
 The quotation marks are very important, so don't forget them! Also note that there is not a space on either side of the equals signs (there must be spaces between attributes though).
